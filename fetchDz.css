@@ -1,0 +1,28 @@
+* {
+  margin: 10px;
+  box-sizing: content-box;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+div {
+  display: flex;
+}
+body {
+  background: rgb(229, 178, 178);
+  display: flex;
+  justify-content: center;
+}
+#country {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.name {
+  font-variant: small-caps;
+}
+.drzave {
+  list-style-type: none;
+  display: inline-flex;
+}
+li {
+  font-size: 25px;
+}
